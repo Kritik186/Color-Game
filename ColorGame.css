@@ -1,0 +1,74 @@
+body{
+    background-color: #232323;
+    margin: 0px;
+    font-family:"poppins" ;
+    font-weight: 50;
+}
+.square{
+    background-color: white;
+    padding-bottom: 30%;
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: background-Color 0.6s;
+    border-radius: 15%;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    font-weight: normal;
+    margin: 0ex;
+    height: 100px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0px;
+}
+#stripe{
+    background-color: white;
+    color: black;
+    height: 30px;
+    text-align: center;
+    margin-left: 0em;
+    margin-right: 0em;
+    margin-bottom: 10px;
+}
+
+.selected{
+    background-color: steelblue;
+    color: white;
+    border: 0px;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+    font: inherit;
+    color: steelblue;
+    font-weight: normal;
+}
+#ColorDisplay{
+    font-size:40px;
+    
+}
+
+button{
+    height: 100%;
+    font: inherit;
+    border: 0;
+    background: none;
+    color: steelblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+    outline: none;
+
+}
+button:hover{
+    background-color: steelblue;
+    color: white;
+    transition: all 0.6s;
+}
